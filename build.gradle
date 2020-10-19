@@ -1,10 +1,16 @@
-apply plugin: 'java'
-
-dependencies {
-    testImplementation 'io.cucumber:cucumber-java:6.8.1'
-    testImplementation 'io.cucumber:cucumber-junit:6.8.1'
+plugins {
+    id 'java'
 }
+
+group 'org.example'
+version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    testImplementation("info.cukes:cucumber-java:1.2.5")
+    testImplementation("info.cukes:cucumber-junit:1.2.5")
 }

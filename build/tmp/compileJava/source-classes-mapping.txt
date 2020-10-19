@@ -1,0 +1,4 @@
+io/cucumber/skeleton/Persona.java
+ io.cucumber.skeleton.Persona
+io/cucumber/skeleton/CuentaBancaria.java
+ io.cucumber.skeleton.CuentaBancaria
